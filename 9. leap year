@@ -1,0 +1,7 @@
+def leapyear(d):
+  if(d%4==0):
+    print("Leap year");
+  else:
+    print("Not a leap year");
+  return d;
+print("the leapyear is %i"%leapyear(4))
