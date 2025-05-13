@@ -1,0 +1,3 @@
+def triangleArea(b,h):
+  return b*h;
+  print("area of traiangle = %d" % triangleArea(2,3));
