@@ -1,0 +1,21 @@
+a = int(input('Percentage obtained by a Subject 1 :'))
+b = int(input('Percentage obtained by a subject 2 :'))
+c = int(input('Percentage obtained by a subject 3:'))
+d = int(input('Percentage obtained by a subject 4 :'))
+e = int(input('Percentage obtained by a subject 5 :'))
+
+avg = ((a+b+c+d+e)/5)
+print(avg)
+
+if(a >= 90 and a<=100):
+    print('Grade A')
+elif(a>=80 and a<= 89):
+    print('Grade B')
+elif(a>=70 and a<=79 ):
+    print('Grade C')
+elif(a>=60 and a<=69):
+    print('Grade D')
+elif(a>=50 and a<=59):
+    print('Grade F')
+else:
+    print("Grade: F")
